@@ -1,4 +1,4 @@
-# 🛡️ SentinelLab - GUI Based Attack & Defense Framework
+# 🛡️ SentinelLab - Attack & Defense Framework
 
 **SentinelLab** is a GUI-based Attack and Defence framework for demonstrating the complete cybersecurity assessment lifecycle in controlled lab environments. It performs reconnaissance, vulnerability analysis, controlled exploitation demonstrations, and provides defensive hardening recommendations.
 
@@ -42,7 +42,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/SentinelLab.git
+   git clone https://github.com/M-Uzair-Farooq/SentinelLab.git
    cd SentinelLab
    ```
 
