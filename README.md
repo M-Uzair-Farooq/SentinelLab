@@ -1,4 +1,4 @@
-# 🛡️ SentinelLab – A GUI-Based Attack and Defense Framework
+# 🛡️ SentinelLab - GUI Based Attack & Defense Framework
 
 **SentinelLab** is a GUI-based Attack and Defence framework for demonstrating the complete cybersecurity assessment lifecycle in controlled lab environments. It performs reconnaissance, vulnerability analysis, controlled exploitation demonstrations, and provides defensive hardening recommendations.
 
