@@ -1,0 +1,62 @@
+[
+    {
+        "name": "MS17-010 (EternalBlue)",
+        "cve": "CVE-2017-0143",
+        "severity": "Critical",
+        "description": "Remote Code Execution vulnerability in Microsoft SMBv1 server",
+        "impact": "Allows attacker to execute arbitrary code with SYSTEM privileges",
+        "service": "SMB",
+        "port": 445,
+        "exploit_available": true,
+        "patch": "MS17-010",
+        "cvss_score": 8.1
+    },
+    {
+        "name": "MS08-067 (NetAPI)",
+        "cve": "CVE-2008-4250",
+        "severity": "Critical",
+        "description": "Remote Code Execution in Server Service",
+        "impact": "Allows remote attacker to take complete control of system",
+        "service": "NetAPI",
+        "port": 445,
+        "exploit_available": true,
+        "patch": "MS08-067",
+        "cvss_score": 10.0
+    },
+    {
+        "name": "SMBv1 Null Session",
+        "cve": "CVE-1999-0519",
+        "severity": "High",
+        "description": "Allows anonymous access to SMB shares",
+        "impact": "Information disclosure through unauthenticated access",
+        "service": "SMB",
+        "port": 445,
+        "exploit_available": true,
+        "patch": "Configuration change",
+        "cvss_score": 5.3
+    },
+    {
+        "name": "BlueKeep (CVE-2019-0708)",
+        "cve": "CVE-2019-0708",
+        "severity": "Critical",
+        "description": "Remote Desktop Services Remote Code Execution Vulnerability",
+        "impact": "Wormable vulnerability allowing system compromise",
+        "service": "RDP",
+        "port": 3389,
+        "exploit_available": true,
+        "patch": "KB4499175",
+        "cvss_score": 9.8
+    },
+    {
+        "name": "FTP Anonymous Access",
+        "cve": null,
+        "severity": "Medium",
+        "description": "FTP server configured to allow anonymous access",
+        "impact": "Unauthenticated file upload/download",
+        "service": "FTP",
+        "port": 21,
+        "exploit_available": false,
+        "patch": "Configuration change",
+        "cvss_score": 5.3
+    }
+]

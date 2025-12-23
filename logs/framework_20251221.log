@@ -1,0 +1,200 @@
+2025-12-21 07:00:22,180 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 07:00:34,429 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_070034
+2025-12-21 07:05:06,694 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 07:05:06,695 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 07:10:08,172 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 07:10:11,068 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_071011
+2025-12-21 07:16:03,802 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 07:16:03,802 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 07:16:34,693 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 07:16:36,695 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_071636
+2025-12-21 07:21:18,543 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 07:21:18,543 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 07:36:34,854 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 07:36:36,849 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_073636
+2025-12-21 07:41:49,024 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 07:41:49,024 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 07:43:40,215 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 07:43:42,234 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_074342
+2025-12-21 07:44:44,177 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 07:44:46,141 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_074446
+2025-12-21 07:48:40,437 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 07:48:40,438 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 08:05:22,502 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 08:05:23,992 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_080523
+2025-12-21 08:06:08,940 - attack_defense_framework - INFO - Generated 0 defense recommendations
+2025-12-21 08:09:30,679 - attack_defense_framework - INFO - Generated 0 defense recommendations
+2025-12-21 08:09:37,874 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 08:09:37,875 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 08:29:55,631 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 08:29:57,566 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_082957
+2025-12-21 08:30:04,671 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 08:30:22,279 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:30:22,279 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:30:22,279 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:30:45,067 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 08:31:06,084 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 08:31:26,998 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:31:26,998 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:31:26,998 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:31:28,303 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:31:28,303 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:31:28,303 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:31:29,199 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 08:31:29,199 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 08:31:33,525 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 08:31:35,180 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_083135
+2025-12-21 08:31:45,100 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 08:31:57,063 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:31:57,063 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:31:57,063 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:32:28,400 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:32:28,401 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:32:28,401 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:32:47,399 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:32:47,399 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:32:47,399 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:32:48,279 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:32:48,280 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:32:48,280 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:32:48,452 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:32:48,452 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:32:48,452 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:32:48,631 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:32:48,631 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:32:48,631 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:32:48,804 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:32:48,804 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:32:48,804 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:32:48,979 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:32:48,980 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:32:48,980 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:32:49,148 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:32:49,148 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:32:49,148 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:32:49,367 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:32:49,368 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:32:49,368 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:33:48,321 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 08:33:48,322 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 08:34:35,370 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 08:34:37,250 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_083437
+2025-12-21 08:34:51,438 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 08:34:51,438 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 08:35:29,050 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 08:35:31,517 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_083531
+2025-12-21 08:35:40,994 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 08:35:54,371 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:35:54,372 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:35:54,372 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:46:24,863 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 08:46:24,864 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 08:46:39,517 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 08:46:41,398 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_084641
+2025-12-21 08:46:47,942 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 08:46:57,904 - attack_defense_framework - INFO - Generating defense recommendations for 6 vulnerabilities
+2025-12-21 08:46:57,904 - attack_defense_framework - INFO - Generated 5 defense recommendations
+2025-12-21 08:46:57,904 - attack_defense_framework - INFO - Emitting defense_updated signal with 5 recommendations
+2025-12-21 08:49:09,608 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 08:49:09,609 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 08:49:12,392 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 08:49:21,144 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_084921
+2025-12-21 08:49:27,429 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 08:50:23,052 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 08:50:23,052 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 08:55:27,243 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 08:55:29,235 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_085529
+2025-12-21 08:55:43,547 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 08:55:59,017 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 08:55:59,018 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 08:56:02,850 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 08:56:04,515 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_085604
+2025-12-21 08:56:45,225 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 08:58:29,300 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 08:58:29,300 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 08:58:32,842 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 08:58:34,393 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_085834
+2025-12-21 08:58:48,241 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 09:02:47,796 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 09:02:47,798 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 09:02:52,906 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 09:02:55,321 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_090255
+2025-12-21 09:03:11,422 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 09:03:11,422 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 09:04:40,277 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 09:04:42,451 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_090442
+2025-12-21 09:05:03,297 - attack_defense_framework - INFO - Mapped 6 vulnerabilities from scan results
+2025-12-21 09:05:16,894 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 09:05:16,894 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 10:32:54,662 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 10:32:56,466 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_103256
+2025-12-21 10:33:31,461 - attack_defense_framework - INFO - Mapped 1 vulnerabilities from scan results
+2025-12-21 10:36:58,973 - attack_defense_framework - INFO - Mapped 0 vulnerabilities from scan results
+2025-12-21 10:37:47,150 - attack_defense_framework - INFO - Mapped 1 vulnerabilities from scan results
+2025-12-21 10:42:15,373 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 10:42:15,374 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 10:51:33,085 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 10:51:34,983 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_105134
+2025-12-21 10:53:57,280 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 10:53:57,280 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 11:18:57,911 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 11:18:59,641 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_111859
+2025-12-21 11:22:50,812 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 11:22:53,056 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_112253
+2025-12-21 11:22:53,058 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 11:29:27,712 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 11:29:29,734 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_112929
+2025-12-21 11:29:29,738 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 11:30:17,353 - attack_defense_framework - INFO - Mapped 1 vulnerabilities from scan results
+2025-12-21 11:50:03,849 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 11:50:06,136 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_115006
+2025-12-21 11:50:06,139 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 11:55:59,523 - attack_defense_framework - INFO - Mapped 2 vulnerabilities from scan results
+2025-12-21 12:26:36,552 - attack_defense_framework - ERROR - Error during cleanup: 'ExploitController' object has no attribute 'stop_msfrpcd'
+2025-12-21 12:26:53,598 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 12:26:55,435 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_122655
+2025-12-21 12:26:55,443 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 12:33:11,017 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 12:33:12,849 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_123312
+2025-12-21 12:33:12,851 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 12:37:21,991 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 12:37:23,817 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_123723
+2025-12-21 12:37:23,819 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 12:43:12,141 - attack_defense_framework - INFO - Mapped 2 vulnerabilities from scan results
+2025-12-21 13:18:27,114 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 13:18:29,151 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_131829
+2025-12-21 13:18:29,153 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 13:24:15,233 - attack_defense_framework - INFO - Mapped 2 vulnerabilities from scan results
+2025-12-21 13:26:49,988 - attack_defense_framework - INFO - Generating defense recommendations for 2 vulnerabilities
+2025-12-21 13:26:49,988 - attack_defense_framework - INFO - Generated 1 defense recommendations
+2025-12-21 13:26:49,988 - attack_defense_framework - INFO - Emitting defense_updated signal with 1 recommendations
+2025-12-21 13:34:41,730 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 13:34:41,730 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 13:48:12,834 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 13:48:14,362 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_134814
+2025-12-21 13:48:14,364 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 13:54:27,533 - attack_defense_framework - INFO - Mapped 2 vulnerabilities from scan results
+2025-12-21 13:56:52,712 - attack_defense_framework - INFO - Generating defense recommendations for 2 vulnerabilities
+2025-12-21 13:56:52,712 - attack_defense_framework - INFO - Generated 1 defense recommendations
+2025-12-21 13:56:52,712 - attack_defense_framework - INFO - Emitting defense_updated signal with 1 recommendations
+2025-12-21 14:04:29,547 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-21 14:04:29,547 - attack_defense_framework - INFO - Framework shutting down...
+2025-12-21 14:04:45,736 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 14:04:47,492 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_140447
+2025-12-21 14:04:47,493 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 14:09:02,139 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 14:09:04,210 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_140904
+2025-12-21 14:09:04,211 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 14:15:00,665 - attack_defense_framework - INFO - Mapped 2 vulnerabilities from scan results
+2025-12-21 14:17:26,601 - attack_defense_framework - INFO - Generating defense recommendations for 2 vulnerabilities
+2025-12-21 14:17:26,601 - attack_defense_framework - INFO - Generated 1 defense recommendations
+2025-12-21 14:17:26,601 - attack_defense_framework - INFO - Emitting defense_updated signal with 1 recommendations
+2025-12-21 14:22:16,854 - attack_defense_framework - INFO - Framework starting...
+2025-12-21 14:22:18,440 - attack_defense_framework - INFO - Framework controller initialized. Session ID: SESS_20251221_142218
+2025-12-21 14:22:18,442 - attack_defense_framework - INFO - Started MSF RPC daemon
+2025-12-21 14:28:03,349 - attack_defense_framework - INFO - Mapped 2 vulnerabilities from scan results
+2025-12-21 14:28:21,764 - attack_defense_framework - INFO - Generating defense recommendations for 2 vulnerabilities
+2025-12-21 14:28:21,765 - attack_defense_framework - INFO - Generated 1 defense recommendations
+2025-12-21 14:28:21,765 - attack_defense_framework - INFO - Emitting defense_updated signal with 1 recommendations
+2025-12-22 05:22:33,507 - attack_defense_framework - INFO - Framework controller cleanup complete
+2025-12-22 05:22:33,510 - attack_defense_framework - INFO - Framework shutting down...

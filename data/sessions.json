@@ -1,0 +1,95 @@
+[
+    {
+        "session_id": "SESS_20231215_143022",
+        "timestamp": "2023-12-15T14:30:22",
+        "target_ip": "192.168.56.101",
+        "description": "Windows 7 educational assessment",
+        "scan_results": [
+            {
+                "port": 21,
+                "service": "FTP",
+                "version": "FileZilla 2.2",
+                "state": "open",
+                "risk": "Medium"
+            },
+            {
+                "port": 80,
+                "service": "HTTP",
+                "version": "Microsoft IIS 7.5",
+                "state": "open",
+                "risk": "Medium"
+            },
+            {
+                "port": 135,
+                "service": "MSRPC",
+                "version": "Microsoft Windows RPC",
+                "state": "open",
+                "risk": "High"
+            },
+            {
+                "port": 139,
+                "service": "NetBIOS",
+                "version": "Microsoft Windows NetBIOS",
+                "state": "open",
+                "risk": "High"
+            },
+            {
+                "port": 445,
+                "service": "SMB",
+                "version": "Microsoft Windows SMBv1",
+                "state": "open",
+                "risk": "Critical"
+            },
+            {
+                "port": 3389,
+                "service": "RDP",
+                "version": "Microsoft Terminal Services",
+                "state": "open",
+                "risk": "Medium"
+            }
+        ],
+        "vulnerabilities": [
+            {
+                "name": "MS17-010 (EternalBlue)",
+                "severity": "Critical",
+                "service": "SMB",
+                "port": 445
+            },
+            {
+                "name": "SMBv1 Null Session",
+                "severity": "High",
+                "service": "SMB",
+                "port": 445
+            },
+            {
+                "name": "MS08-067 (NetAPI)",
+                "severity": "Critical",
+                "service": "MSRPC",
+                "port": 135
+            }
+        ],
+        "exploits": [
+            {
+                "id": "EXPLOIT_143125",
+                "exploit": "MS17-010 (EternalBlue)",
+                "success": true,
+                "user": "SYSTEM",
+                "privilege": "NT AUTHORITY\\SYSTEM",
+                "timestamp": "2023-12-15T14:31:25"
+            }
+        ],
+        "recommendations": [
+            {
+                "vulnerability": "MS17-010 (EternalBlue)",
+                "severity": "Critical",
+                "mitigation": [
+                    "Apply Microsoft security update MS17-010",
+                    "Disable SMBv1 protocol",
+                    "Block port 445 at network firewall"
+                ],
+                "applied": false
+            }
+        ],
+        "status": "completed"
+    }
+]

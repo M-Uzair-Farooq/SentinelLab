@@ -1,0 +1,200 @@
+{
+    "vulnerabilities": {
+        "MS17-010 (EternalBlue)": {
+            "severity": "Critical",
+            "mitigation": [
+                "Apply Microsoft security update MS17-010",
+                "Disable SMBv1 protocol via PowerShell: Set-SmbServerConfiguration -EnableSMB1Protocol $false",
+                "Block port 445 at network firewall",
+                "Enable SMB signing: Set-SmbServerConfiguration -RequireSecuritySignature $true",
+                "Implement network segmentation for file servers",
+                "Monitor for SMB exploitation attempts in logs"
+            ],
+            "root_cause": "Unpatched SMBv1 implementation with buffer overflow vulnerability",
+            "category": "Remote Code Execution",
+            "cvss_score": 8.1,
+            "windows_command": "sc config lanmanworkstation depend= bowser/mrxsmb10/nsi && sc config mrxsmb10 start= disabled"
+        },
+        "MS08-067 (NetAPI)": {
+            "severity": "Critical",
+            "mitigation": [
+                "Apply security update MS08-067 (KB958644)",
+                "Disable Server service if not needed: sc config LanmanServer start= disabled",
+                "Block ports 135-139 and 445 at firewall",
+                "Enable Windows Firewall with restrictive rules",
+                "Use host-based intrusion prevention system"
+            ],
+            "root_cause": "Unpatched NetAPI service allowing remote code execution",
+            "category": "Remote Code Execution",
+            "cvss_score": 10.0,
+            "windows_command": "netsh advfirewall firewall add rule name=\"Block SMB\" dir=in action=block protocol=TCP localport=445"
+        },
+        "SMBv1 Null Session": {
+            "severity": "High",
+            "mitigation": [
+                "Disable null session access in registry: HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa RestrictAnonymous=1",
+                "Configure SMB security settings via Group Policy",
+                "Use SMBv2 or SMBv3 exclusively",
+                "Implement access controls on shares",
+                "Regularly audit SMB share permissions"
+            ],
+            "root_cause": "Misconfigured SMB permissions allowing anonymous access",
+            "category": "Information Disclosure",
+            "cvss_score": 5.3,
+            "windows_command": "reg add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\" /v RestrictAnonymous /t REG_DWORD /d 1 /f"
+        },
+        "BlueKeep (CVE-2019-0708)": {
+            "severity": "Critical",
+            "mitigation": [
+                "Apply Microsoft security update KB4499175",
+                "Enable Network Level Authentication for RDP",
+                "Block port 3389 at perimeter firewall",
+                "Use VPN for remote access instead of direct RDP",
+                "Implement multi-factor authentication for remote access"
+            ],
+            "root_cause": "Unpatched Remote Desktop Services with pre-authentication RCE",
+            "category": "Remote Code Execution",
+            "cvss_score": 9.8,
+            "windows_command": "reg add \"HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services\" /v UserAuthentication /t REG_DWORD /d 1 /f"
+        },
+        "FTP Anonymous Access": {
+            "severity": "Medium",
+            "mitigation": [
+                "Disable anonymous FTP access",
+                "Use SFTP or FTPS instead of plain FTP",
+                "Implement strong authentication",
+                "Encrypt FTP traffic",
+                "Consider replacing FTP with secure alternatives"
+            ],
+            "root_cause": "Misconfigured FTP server allowing anonymous uploads/downloads",
+            "category": "Information Disclosure",
+            "cvss_score": 5.3
+        }
+    },
+    "hardening_checklist": [
+        {
+            "recommendation": "Apply all Windows updates",
+            "category": "Patch Management",
+            "priority": "High",
+            "description": "Keep system updated with latest security patches to fix known vulnerabilities",
+            "implementation": [
+                "Enable Windows Update automatic updates",
+                "Check for updates at least monthly",
+                "Test updates in staging environment before production",
+                "Maintain update schedule"
+            ],
+            "verification": "Run 'systeminfo' and check hotfixes"
+        },
+        {
+            "recommendation": "Enable and configure Windows Firewall",
+            "category": "Network Security",
+            "priority": "High",
+            "description": "Configure host-based firewall to block unnecessary inbound/outbound traffic",
+            "implementation": [
+                "Enable Windows Firewall on all profiles",
+                "Configure inbound rules to block unnecessary ports",
+                "Configure outbound rules for application control",
+                "Enable logging for firewall events"
+            ],
+            "verification": "Check firewall status with 'netsh advfirewall show allprofiles'"
+        },
+        {
+            "recommendation": "Disable unnecessary services",
+            "category": "System Hardening",
+            "priority": "Medium",
+            "description": "Reduce attack surface by disabling services that are not required",
+            "implementation": [
+                "Review running services with 'net start'",
+                "Disable Telnet, FTP, SNMP if not needed",
+                "Disable SMBv1: Set-SmbServerConfiguration -EnableSMB1Protocol $false",
+                "Disable NetBIOS over TCP/IP"
+            ],
+            "verification": "Review services.msc for running services"
+        },
+        {
+            "recommendation": "Configure strong password policy",
+            "category": "Access Control",
+            "priority": "High",
+            "description": "Implement and enforce strong password requirements",
+            "implementation": [
+                "Minimum password length: 12 characters",
+                "Password complexity requirements enabled",
+                "Maximum password age: 90 days",
+                "Account lockout after 5 failed attempts",
+                "Prevent password reuse"
+            ],
+            "verification": "Check with 'net accounts' command"
+        },
+        {
+            "recommendation": "Enable User Account Control",
+            "category": "Privilege Management",
+            "priority": "Medium",
+            "description": "Prevent unauthorized system changes by requiring elevation",
+            "implementation": [
+                "Set UAC to highest level (Always notify)",
+                "Require administrator approval for elevation",
+                "Enable secure desktop for elevation prompts",
+                "Configure UAC via Group Policy"
+            ],
+            "verification": "Check registry: HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System"
+        },
+        {
+            "recommendation": "Enable audit logging",
+            "category": "Monitoring",
+            "priority": "Medium",
+            "description": "Configure comprehensive audit logging for security events",
+            "implementation": [
+                "Enable audit policy for success/failure",
+                "Log account management events",
+                "Log logon/logoff events",
+                "Log object access attempts",
+                "Configure log size and retention"
+            ],
+            "verification": "Check with 'auditpol /get /category:*'"
+        },
+        {
+            "recommendation": "Configure antivirus/anti-malware",
+            "category": "Malware Protection",
+            "priority": "High",
+            "description": "Install and configure antivirus with real-time protection",
+            "implementation": [
+                "Install Windows Defender or third-party AV",
+                "Enable real-time scanning",
+                "Configure scheduled scans",
+                "Keep virus definitions updated",
+                "Enable cloud-delivered protection"
+            ],
+            "verification": "Check AV status in Security Center"
+        },
+        {
+            "recommendation": "Implement backup strategy",
+            "category": "Recovery",
+            "priority": "High",
+            "description": "Regular backups to enable recovery from ransomware or system failure",
+            "implementation": [
+                "Schedule regular system image backups",
+                "Backup critical data separately",
+                "Store backups offline/offsite",
+                "Test backup restoration regularly",
+                "Document recovery procedures"
+            ],
+            "verification": "Check backup status and test restoration"
+        }
+    ],
+    "security_baselines": {
+        "cis_level_1": [
+            "Disable Administrator account",
+            "Rename Administrator account",
+            "Set screen saver timeout",
+            "Disable AutoRun",
+            "Enable SmartScreen"
+        ],
+        "nist_800_53": [
+            "Access control policy",
+            "Audit and accountability",
+            "Identification and authentication",
+            "System and communications protection",
+            "System and information integrity"
+        ]
+    }
+}
